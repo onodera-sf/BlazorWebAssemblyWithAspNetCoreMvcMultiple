@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.StaticFiles;
@@ -42,7 +42,7 @@ namespace AspNetCoreMvc
 			}
 			app.UseHttpsRedirection();
 	
-			// �ǉ�
+			// 追加
 			app.UseBlazorFrameworkFiles("/Home/Blazor1");
 			app.UseBlazorFrameworkFiles("/Home/Blazor2");
 			
